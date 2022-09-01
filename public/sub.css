@@ -1,0 +1,29 @@
+
+h1{
+    
+    
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+a{
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+body{
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-color: rgb(198, 253, 253);
+    margin-left: 30rem;
+    margin-top: 8rem;
+    
+}
+.initial{
+    background: white;
+    max-width: 350px;
+    padding: 10px;
+    border-radius: 4px;
+}
