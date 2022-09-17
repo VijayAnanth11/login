@@ -7,7 +7,7 @@
         <body>
           
         <div class="initial">
-          <h1>INTERVIEW APP</h1>
+          <h1>Example APP</h1>
           
           <form>
            <div class="pt-1 mb-4">

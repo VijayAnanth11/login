@@ -8,8 +8,8 @@
         <body>
           <div class="initial">
           <h1>Please Sign in</h1>
-
-         <form style="width: 23rem;" method ="POST" action="/authenticate">
+        
+          <form style="width: 23rem;" method ="POST" action="/authenticate">
           
             <label class="form-label" for="">User Name</label>
             <input type="text" name="email" class="form-control form-control-lg" />
@@ -22,15 +22,7 @@
            <a href="reg"> Sign up</a>
              @csrf
             </form>
-
-            @if($errors->any())
-              @foreach($errors->all() as $error)
-                <div class="alert alert-danger alert-dismissible show" role="alert">
-                {{$error}}
-                </div>
-              @endforeach
-            @endif
-            
+            <div class="alert alert-danger alert-dismissible show" role="alert">Incoreect</div>
 </diV>
 </body>
 </div>
